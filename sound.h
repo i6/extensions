@@ -11,9 +11,9 @@
 ! This system consumes three global variables and one array:
 ! play_sounds -  If play_sounds=1, sounds will be played, if 0, they will not.
 ! sound_vol -  a number from 1 to 8, setting the volume 
-! playing -  A bit array holding three bites used internally. ->0 indicates 
+! playing -  A bit array holding three bytes used internally. ->0 indicates 
 !               whether or not PlaySound has been called yet.
-!               ->1 indicates the currenly playing sound effect number
+!               ->1 indicates the currently playing sound effect number
 !               ->2 is used by internal operations
 !
 !  This library plays sound effects of the formats described in Stefan 
